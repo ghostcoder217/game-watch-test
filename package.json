@@ -1,0 +1,27 @@
+{
+  "name": "game-watch-smoke-test",
+  "version": "1.0.0",
+  "description": "MVP for the game watch service",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "meow": "set NODE_ENV=development&& nodemon index.js"
+  },
+  "keywords": [
+    "gaming"
+  ],
+  "author": "Tristan Mastrodicasa",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "ejs": "^2.6.1",
+    "email-validator": "^2.0.4",
+    "express": "^4.16.4",
+    "moment": "^2.24.0",
+    "mysql": "^2.16.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  }
+}

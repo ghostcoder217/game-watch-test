@@ -1,0 +1,92 @@
+
+/*=======================================
+Template Design By MarkUps.
+Author URI : http://www.markups.io/
+========================================*/
+
+.menu-wrap li a:hover,
+.menu-wrap li a:focus {
+  color: #2F2F2F;
+}
+
+.download-btn{
+  background-color: #2F2F2F;
+}
+
+.main-nav a:hover,
+.main-nav a:focus {
+  color: #2F2F2F;
+}
+
+.main-nav a:active {
+  color: #2F2F2F;
+}
+
+.title-area .title span{
+  color: #2F2F2F;
+}
+
+.feature-price .single-plan-head{
+  background-color: #2F2F2F;
+}
+
+.single-plan-head p > span {
+  color: #2F2F2F; 
+}
+
+.single-plan-bottom .signup-btn {
+  background-color: #2F2F2F;
+}
+
+.screenshots-slide li a:hover{
+  border-color: #2F2F2F;  
+}
+
+.screenshots-slide .slick-dots li button:hover,
+.screenshots-slide .slick-dots li.slick-active button {
+  background-color: #2F2F2F;  
+}
+
+.single-download:hover,
+.single-download:focus{
+  background-color: #2F2F2F;
+}
+
+.testi-company{
+  color: #2F2F2F;  
+}
+
+.testi-text:before{  
+  color: #2F2F2F;
+}
+
+.testimonial-slider .slick-dots li.slick-active {
+  background-color: #2F2F2F; 
+}
+
+.subcr-form i {
+  color: #2F2F2F;  
+}
+
+.subcr-form .subcr-btn {
+  background-color: #2F2F2F;
+}
+
+.contact-form .form-control:focus {
+  border-color: #2F2F2F;
+}
+
+.send-btn:hover,
+.send-btn:focus{
+  background-color: #2F2F2F;
+}
+
+.home-btn a:hover,
+.home-btn a:focus{
+  color: #2F2F2F; 
+}
+
+/*=======================================
+Template Design By MarkUps.
+Author URI : http://www.markups.io/
+========================================*/

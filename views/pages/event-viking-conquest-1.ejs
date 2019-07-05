@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+	
+	<head>
+		<title>Game Watch - Mount and Blade Battle</title>
+		<meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+		<link rel="stylesheet" href="/public/stylesheets/main.css">
+		<link rel="stylesheet" href="/public/stylesheets/normalize.css">
+		<link rel="stylesheet" href="/public/stylesheets/extra.css">
+		<script type="text/javascript" src="/public/javascript/primary-script.js"></script>
+	</head>
+	
+	<body>
+		
+		<div class="top-nav">
+			
+			<div style="max-width: 1040px; margin: 0 auto; height: 100%">
+				
+				<div class="vert-center-p">
+					
+					<div class="inner-bar vert-center-c">
+						<a href="/"><img src="/public/app-landy/images/gw-logo.svg" alt="logo" height="100%"></a>
+						<a href="/"><div class="about-button right">What?</div></a>
+					</div>
+					
+				</div>
+				
+			</div>
+			
+		</div>
+		
+		<div style="position: absolute; z-index: 100;">
+			
+			<div style="display:block;max-width: 1040px; margin: 0 auto;">
+				<div class="inner-bar" style="color: white;font-size: 20px;margin-top: 240px;">
+					<p class="title-text">Mount and Blade Massive Battle</p>
+					<form action="/events/d2aefeac9dc661bc98eebd6cc12f0b82/interested" method="post">
+						<input type="submit" class="about-button right" value="Interested" style="margin-top:-30px;">
+					</form>
+				</div>
+			</div>
+			
+		</div>
+			
+		<div class="img-container">
+			<div class="overlay"></div>
+			<img src="/public/app-landy/images/mb.jpg" class="strechy">
+		</div>
+		
+		<div class="event-viewer-c main-app-offset mb-15-c inner-bar" style="height: auto;margin:0 auto;max-width: 600px;">
+			
+			<div class="ib">
+		  
+		      <h2 class="ib-heading">Description</h2>
+		  
+		      <div class="ib-content-c"> <!-- Rating -->
+		  
+		        <div class="ib-last">
+		          <p class="white-text-1">This event is a test for the usefulness of the Game Watch service. This "event" simply seeks to find out how quickly we can assemble a large number of players for a multiplayer game.</p>
+		        </div>
+		  
+		      </div>
+		  
+		    </div>
+			
+  <div class="ib">
+
+    <h2 class="ib-heading">When</h2>
+
+    <div class="ib-content-c"> <!-- When -->
+
+        <div class="ib-last">
+          <div class="ib-label"><p style="font-size: 20px;">Countdown</p></div>
+          <div class="ib-content"><p style="font-size: 20px;"><%= cd %></p></div>
+          <div style="clear: both"></div>
+        </div>
+
+    </div>
+
+  </div>
+  
+  <div class="ib">
+
+    <h2 class="ib-heading">Who</h2>
+
+    <div class="ib-content-c"> <!-- Who -->
+
+      <div class="ib-last">
+        <div class="ib-label"><p style="font-size: 20px;">Player Target</p></div>
+        <div class="ib-content"><p style="font-size: 20px;"><%= playerCount %> / 200</p></div>
+        <div style="clear: both"></div>
+      </div>
+
+    </div>
+
+  </div>
+
+  <div class="ib">
+
+    <h2 class="ib-heading">Server Location</h2>
+
+    <div class="ib-content-c"> <!-- Server Location -->
+
+      <div>
+        <div class="ib-label"><p>Server</p></div>
+        <div class="ib-content"><p>**MountAndSiege**</p></div>
+        <div style="clear: both"></div>
+      </div>
+      <div class="ib-last">
+        <div class="ib-label"><p>Region</p></div>
+        <div class="ib-content"><p>North America</p></div>
+        <div style="clear: both"></div>
+      </div>
+
+    </div>
+
+  </div>
+
+  <div class="ib">
+
+    <h2 class="ib-heading">Communication</h2>
+
+    <div class="ib-content-c"> <!-- Communication -->
+
+      <div>
+        <div class="ib-label"><p>Voice Service</p></div>
+        <div class="ib-content"><p>Discord</p></div>
+        <div style="clear: both"></div>
+      </div>
+      <div class="ib-last">
+        <div class="ib-label"><p>Server</p></div>
+        <div class="ib-content"><p><a style="color: white" target="_blank" href="https://discord.gg/hbp9YN">https://discord.gg/hbp9YN</a></p></div>
+        <div style="clear: both"></div>
+      </div>
+
+    </div>
+
+  </div>
+
+  <div class="ib">
+
+    <h2 class="ib-heading">Rating</h2>
+
+    <div class="ib-content-c"> <!-- Rating -->
+
+      <div class="ib-last">
+        <p class="white-text-1">Aggregate ratings of games previously hosted by this user is 100%</p>
+      </div>
+
+    </div>
+
+  </div>
+  
+  <div class="ib">
+
+	<h2 class="ib-heading">Log</h2>
+
+	<div class="ib-content-c"> <!-- Rating -->
+
+	  <div class="ib-last">
+		<% timeStamp.forEach(function(timeStamp){ %>
+	      <p style="color: #D1D5DA">[<%- timeStamp %>] A player is interested</p>
+	    <% }); %>
+	  </div>
+
+	</div>
+
+  </div>
+  
+  
+
+</div>
+
+		
+	</body>
+
+</html>
