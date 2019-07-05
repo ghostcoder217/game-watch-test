@@ -15,6 +15,7 @@ If you want to run the events page properly you will have to configure a MySQL d
 
 Then you will need to uncomment the statistics collection block in `index.js`
 
+Website should run on localhost:80
 
 ## Folder Structure
 
