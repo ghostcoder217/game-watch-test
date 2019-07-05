@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js",
-    "meow": "set NODE_ENV=development&& nodemon index.js"
+    "dev": "set NODE_ENV=development&& nodemon index.js"
   },
   "keywords": [
     "gaming"

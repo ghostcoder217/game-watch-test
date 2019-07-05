@@ -12,7 +12,7 @@ if (process.env.NODE_ENV == 'development') {
 	credentials = {
 		host: "localhost",
 		user: "root",
-		password: ",
+		password: "",
 		database: ""
 	};
 	

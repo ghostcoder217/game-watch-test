@@ -18,7 +18,7 @@ const app = express();
 // Collect stats
 var con = globals.dbConnection;
 
-app.use(["/"], (req, res, next) => {
+/*app.use(["/"], (req, res, next) => {
 	
 	if (req.path.includes("/events") || req.path == "/") {
 		
@@ -32,7 +32,7 @@ app.use(["/"], (req, res, next) => {
 	}
 	
 	next();
-});
+});*/
 
 // Config
 app.set('view engine', 'ejs');

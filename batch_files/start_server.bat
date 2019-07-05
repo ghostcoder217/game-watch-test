@@ -1,1 +1,1 @@
-npm run meow
+npm run dev
